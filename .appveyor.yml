@@ -3,7 +3,7 @@ environment:
     - target: x86_64-pc-windows-gnu
       MYSQLCLIENT_LIB_DIR: C:\Program Files\MySQL\MySQL Server 5.7\lib
     - target: x86_64-pc-windows-msvc
-      APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2013
+      APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
       MYSQLCLIENT_LIB_DIR: C:\Program Files\MySQL\MySQL Server 5.7\lib
     - target: x86_64-pc-windows-msvc
       RUSTFLAGS: -Ctarget-feature=+crt-static
